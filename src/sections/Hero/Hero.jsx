@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from "../../assets/hero-img2.jpg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import instagramLight from "../../assets/reshot-icon-instagram-M2ZK3USTWR-light.svg";
@@ -36,18 +36,18 @@ const Hero = () => {
         </h1>
         <h2>Web Developer</h2>
         <span>
-          <a href='https://www.instagram.com/' target='_blank'>
+          <a href='https://www.instagram.com/_wynaw_/' target='_blank'>
             <img src={instagramIcon} alt='Instagram Icon' />
           </a>
-          <a href='https://github.com/' target='_blank'>
+          <a href='https://github.com/yanguswiradana' target='_blank'>
             <img src={githubIcon} alt='Github Icon' />
           </a>
-          <a href='https://linkedin.com/' target='_blank'>
+          <a>
             <img src={linkedinIcon} alt='Linkedin Icon' />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps.
+          With a passion for developing modern web apps.
         </p>
         {/* <a href={CV} download>
           <button className='hover'>Resume</button>
