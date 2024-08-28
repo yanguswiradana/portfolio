@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img2.jpg";
+import heroImg from "../../assets/hero-img.jpg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import instagramLight from "../../assets/reshot-icon-instagram-M2ZK3USTWR-light.svg";
@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <section id='hero' className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img className={styles.hero} src={heroImg} alt='Profile picture' />
+        <img className={styles.hero} src={heroImg} alt='Profile img' />
 
         <img
           className={styles.colorMode}
