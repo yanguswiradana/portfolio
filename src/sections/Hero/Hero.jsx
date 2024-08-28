@@ -34,7 +34,7 @@ const Hero = () => {
         <h1>
           Agus <br /> Wiradana
         </h1>
-        <h2>Web Developer</h2>
+        <h2>Frontend Developer</h2>
         <span>
           <a href='https://www.instagram.com/_wynaw_/' target='_blank'>
             <img src={instagramIcon} alt='Instagram Icon' />
