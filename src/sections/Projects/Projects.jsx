@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import reduktor from "../../assets/reduktor2.png";
+import reduktor from "../../assets/reduktor.png";
 import ProjectCard from "../../common/ProjectCard";
 
 const Projects = () => {
